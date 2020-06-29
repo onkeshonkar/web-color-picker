@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(0, 168, 255, 0.1);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 1);
+    height: 95px;
+    /* max-width: 400px; */
+    width: 24%;
+    /* min-width: 300px; */
+    box-shadow: 1px 0 30px rgba(59, 165, 218, 0.308);
+    padding: 0 12px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .color {
+    max-height: 70px;
+    /* max-width: 70px; */
+    width: 70px;
+    height: 70px;
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+
+#red {
+    background: rgba(255, 112, 94, 1)
+}
+
+#blue {
+    background: rgba(0, 158, 255, 1);
+}
+
+#green {
+    background: rgba(151, 195, 3, 1);
+}
+
+#pink {
+    background:rgb(219, 121, 255);
+}
+
+#red:hover {
+    box-shadow: 0 0 2px 6px rgb(240, 197, 194);
+}
+
+#blue:hover {
+    box-shadow: 0 0 2px 6px rgba(99, 201, 241, 0.562);
+}
+
+#green:hover {
+    box-shadow: 0 0 2px 6px rgba(176, 206, 78, 0.644);
+}
+
+#pink:hover {
+    box-shadow: 0 0 2px 6px rgba(201, 128, 228, 0.616);
+}
